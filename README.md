@@ -24,6 +24,10 @@ after plugging in the board using the STLINK-v2 adaptor. In a new terminal, also
 ```
 arm-none-eabi-gdb -q ./target/thumbv7em-none-eabi/debug/stm32f4discovery-blinker
 ``` 
+or on Ubuntu
+```
+arm-none-eabi-gdb -q ./target/thumbv7em-none-eabi/debug/stm32f4discovery-blinker
+```
 to open a debugging session. Finally, connect to the board and run the program with
 ```
 (gdb) target remote :3333
